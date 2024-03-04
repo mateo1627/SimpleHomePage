@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  font-family: "Poppins";
+}
+
+h1 {
+  font-size: 500%;
+  max-width: 35%;
+
+}
+
+.container {
+  padding-left: 5%;
+  padding-top: 1%;
+  background-color: #F2F9FE;
+  overflow: auto;
+}
+
+li {
+  
+  float: left;
+
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  
+}
+
+ul {
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+   
+}
+
+.logo {
+  float: left;
+
+
+
+}
+
+.btn {
+  background-color: #2A4DD0;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  color: white;
+}
+
+.active {
+  color: black;
+  display: block;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.hero {
+  max-width: 45%;
+  float: right;
+}
+
+.DarkModeContainer {
+  
+  float: right;
+background-color: #111729;
+border-radius: 30% ; 
+}
+p{
+  font-size: 80%;
+}
+.union {
+  
+  float: left;
+  
+}
+.tag {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px 16px;
+  color: gray;
+}
+@media only screen and (max-width:1024px) {
+
+  .hero {
+    max-width: 100%;
+    place-content: center;
+    
+  }
+  .simpleWay{
+    float: inline-start;
+  }
+  
+}
+
+.sun {
+  background-color: white;
+  border-radius: 50%;
+  float: right;
+  width: 28px;
+}
+/* @media only screen and (max-width:640px) {
+
+nav ul li {
+  display:none;
+}
+
+  } */
+
+
+  
+
